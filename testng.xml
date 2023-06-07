@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/ApiTestEndToEnd/e2eApiAutomation">
+        <classes>
+            <class name="utility.getToken"></class>
+            <class name="booking.createBooking"></class>
+            <class name="booking.getBookingId"></class>
+            <class name="booking.deleteBooking"></class>
+        </classes>
+    </test>
+</suite>
